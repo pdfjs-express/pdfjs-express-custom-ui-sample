@@ -24,6 +24,8 @@ yarn dev
 npm run dev
 ```
 
+## More info
 
+For a more thorough example of implementing a UI, please reference our [open source UI](https://github.com/PDFTron/webviewer-ui)
 
 
