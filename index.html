@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PDF.js Express Custom UI</title>
+  </head>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+  <body style="height: 100vh">
+    <div id="app" style="height: 100%">
+
+        <div id="scroll-view" style="height: 100%;">
+
+          <div id="header">
+            <button id="rotate">Rotate</button>
+            <button id="zoom-in">Zoom in</button>
+            <button id="zoom-out">Zoom out</button>
+          </div>
+
+          <div id="viewer" style="height: 100%; overflow: auto;">
+        </div>
+      </div>
+     
+    </div>
+
+    <script src="/pdfjsexpress/core/webviewer-core.min.js"></script>
+    <script src="/pdfjsexpress/core/pdfjs/PDFJSDocumentType.js"></script>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

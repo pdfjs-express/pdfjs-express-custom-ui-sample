@@ -1,0 +1,16 @@
+{
+  "name": "@pdftron/pdfjs-express-custom-ui-sample",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "postinstall": "node scripts/copy.js"
+  },
+  "devDependencies": {
+    "fs-extra": "^10.0.1",
+    "vite": "^2.9.0"
+  },
+  "dependencies": {
+    "@pdftron/pdfjs-express": "^8.4.0"
+  }
+}
