@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@pdftron/pdfjs-express@^8.3.0":
-  version "8.3.0"
-  resolved "https://registry.yarnpkg.com/@pdftron/pdfjs-express/-/pdfjs-express-8.3.0.tgz#601951c5e2209ef842ae92ef43b0029d68cfa9fc"
-  integrity sha512-FuQAL2lACBbvXJ0VcRFyWL9GYebi/OCjK64iJ8doo4ANWtMDUV1diXpcvP5z8F3MxdPUPrLG+FfFYeJxzLplgg==
+"@pdftron/pdfjs-express@^8.4.0":
+  version "8.4.0"
+  resolved "https://registry.yarnpkg.com/@pdftron/pdfjs-express/-/pdfjs-express-8.4.0.tgz#a91936fc58feb2b42ad7e459c9d9d8950c6fe708"
+  integrity sha512-6se/g+H9Pcyh+x3kWaoHB/HFIZLqWN6erh53B7SESTh8kFmQuapn5648HTcpeO1iIMSJyWPmZl5c/xd2cU6OvA==
 
 esbuild-android-64@0.14.31:
   version "0.14.31"
